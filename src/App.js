@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
-
+import IsTri from './component/IsTri';
+import NavBar from './component/NavBar';
+import Quiz from './component/Quiz';
+import Hypotenuse from './component/Hypotenuse';
+import Area from './component/Area';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
+      <NavBar></NavBar>
+      
+        <Routes>
+        <Route exact path="/"  element={<IsTri/>}/>
+        <Route exact path="/Quiz" element={<Quiz/>}/>
+        <Route exact path="/Hypotenuse" element={<Hypotenuse/>}/>
+        <Route exact path="/Area" element={<Area/>}/>
+      </Routes>
+     
     </div>
+    </BrowserRouter>
   );
 }
 

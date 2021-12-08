@@ -1,0 +1,24 @@
+.quiz
+{
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+h1
+{
+    text-align: center;
+}
+.q-in
+{
+    text-align: left;
+    display: inline;
+}
+.q-input
+{
+    text-align: left;
+    display: inline;
+}
+.Ques
+{
+    text-align: left;
+}

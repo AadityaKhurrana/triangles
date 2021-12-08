@@ -1,0 +1,40 @@
+
+.tri
+{
+    color:white;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(12, 12, 92);
+}
+label
+{
+    display: block;
+    margin: 1rem;
+}
+input
+{
+    height: 20px;
+    width: 50vw;
+    display: block;
+}
+.div-t
+{
+    text-align: left;
+    max-width: 50vw;
+    margin: auto;
+}
+button
+{
+    height: 30px;
+    background-color: rgb(115, 26, 175);
+    margin: 1rem;
+    text-decoration: none;
+    width:45vw;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+h3
+{
+    text-align: center;
+}
